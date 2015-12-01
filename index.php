@@ -1,19 +1,19 @@
 <?php
-    // define('APP_ID','wxc02e3af3e6928c22');
-    // define('APP_SECRET','581336bc68ab295dcff512a356f47b9d');
+    define('APP_ID','wxc02e3af3e6928c22');
+    define('APP_SECRET','581336bc68ab295dcff512a356f47b9d');
 
-    // $_ch = curl_init();
-    // $_url = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.APP_ID.'&secret='.APP_SECRET;
+    $_ch = curl_init();
+    $_url = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.APP_ID.'&secret='.APP_SECRET;
 
-    // curl_setopt($_ch, CURLOPT_URL,$_url);
-    // curl_setopt($_ch, CURLOPT_RETURNTRANSFER,1);
-    // curl_setopt($_ch, CURLOPT_HEADER,0);
-    // curl_setopt($_ch, CURLOPT_TIMEOUT,10);
+    curl_setopt($_ch, CURLOPT_URL,$_url);
+    curl_setopt($_ch, CURLOPT_RETURNTRANSFER,1);
+    curl_setopt($_ch, CURLOPT_HEADER,0);
+    curl_setopt($_ch, CURLOPT_TIMEOUT,10);
 
-    // $_output = curl_exec($_ch);
-    // curl_close($_ch);
+    $_output = curl_exec($_ch);
+    curl_close($_ch);
 
-    // var_dump($_output);
+    var_dump($_output);
 
     define("TOKEN","wsxnm");
 
