@@ -12,11 +12,9 @@
     curl_setopt($_ch, CURLOPT_TIMEOUT,10);
 
     $_output = curl_exec($_ch);
-    curl_close($_ch);
+
     var_dump($_output);
 
-    json_decode($_output);
-    exit();
 
     define("TOKEN","wsxnm");
 
